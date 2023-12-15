@@ -1,10 +1,10 @@
 const gameBoard = document.querySelector('#game-board');
 const playerDisplay = document.querySelector('#player');
 const infoDisplay = document.querySelector('#info-display');
+const resetButton = document.querySelector('.reset-game');
 const width = 8;
 let playerGo = 'black';
-
-playerDisplay.textContent = 'black';
+playerDisplay.textContent = playerGo;
 
 const startPieces = [
     rook, knight, bishop, queen, king, bishop, knight, rook,
@@ -41,10 +41,26 @@ function createBoard() {
         gameBoard.appendChild(square);
     });
 }
+
 createBoard();
 
-const allSquares = document.querySelectorAll('.square');
+//reset Game
 
+resetButton.addEventListener('click', (e) => {
+    gameBoard.innerHTML = '';
+    playerGo = 'black';
+    playerDisplay.textContent = playerGo;
+    createBoard();
+    const allSquares = document.querySelectorAll('.square');
+    allSquares.forEach((square) => {
+        square.addEventListener('dragstart', dragStart);
+        square.addEventListener('dragover', dragOver);
+        square.addEventListener('drop', dragDrop);
+    });
+
+});
+
+const allSquares = document.querySelectorAll('.square');
 allSquares.forEach((square) => {
     square.addEventListener('dragstart', dragStart);
     square.addEventListener('dragover', dragOver);

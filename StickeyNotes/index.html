@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky Notes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="app.js" defer></script>
+</head>
+
+<body>
+    <div class="toolbox-container">
+        <div class="dummy">
+            <div class="toolbox-priority-container">
+                <div class="color coral"></div>
+                <div class="color blue"></div>
+                <div class="color green"></div>
+                <div class="color grey"></div>
+            </div>
+            <div class="toolbox-action-button-container">
+                <div class="addBtn">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M12 9v6m3-3H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+
+                </div>
+                <div class="removeBtn">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+
+                </div>
+            </div>
+        </div>
+        <h1>Sticky Notes 🗒️</h1>
+    </div>
+    <div class="main-container">
+        <!-- <div class="ticket-container">
+            <div class="ticket-color"></div>
+            <div class="ticket-id">Sample-id</div>
+            <div class="task-area">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum voluptatum reiciendis
+                consectetur odit omnis laboriosam fugit, maxime nisi, eius sed at dignissimos ad impedit molestias nobis
+                nam repellendus cupiditate laudantium.
+            </div>
+            <div class="lock-container">
+                <i class="fa-solid fa-lock lock"></i>
+            </div>
+        </div> -->
+    </div>
+    <div class="modal-container">
+        <textarea class="text-area-container" spellcheck="false"></textarea>
+        <div class="priority">
+            <div class="color-category coral"></div>
+            <div class="color-category blue"></div>
+            <div class="color-category green"></div>
+            <div class="color-category grey selected"></div>
+        </div>
+    </div>
+</body>
+
+</html>
