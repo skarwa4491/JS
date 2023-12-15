@@ -1,0 +1,99 @@
+/* 
+    Color Green : #779556
+    Color Cream : #EBECD0
+    Color background : #302E2B
+*/
+p,
+span {
+    font-family: sans-serif;
+    font-size: 20px;
+    display: inline-block;
+}
+
+#player::first-letter {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: brown;
+}
+
+.go,
+#player,
+#info-display {
+    word-spacing: 5px;
+    font-size: 50px;
+}
+
+#info-display {
+    margin-top: 5px;
+}
+
+.info-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.dad-container {
+    margin-top: 100px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#game-board {
+    width: 560px;
+    height: 560px;
+    background-color: #302E2B;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square {
+    height: 70px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.square svg {
+
+    height: 40px;
+    width: 40px;
+    position: relative;
+    z-index: -9;
+}
+
+path {
+    position: relative;
+    z-index: -10;
+}
+
+.piece {
+
+    position: relative;
+    z-index: 9;
+}
+
+.beige {
+    background-color: rgba(235, 236, 208, 0.7);
+}
+
+.green {
+    background-color: rgba(119, 149, 86, 1);
+}
+
+.black {
+    fill: black;
+}
+
+.white {
+    fill: #F9F9F9;
+}
