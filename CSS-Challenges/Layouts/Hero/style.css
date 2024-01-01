@@ -1,0 +1,98 @@
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+MAIN COLOR #087f5b
+TEXT COLOR: #343a40
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ------------------------ */
+/* GENERAL STYLES */
+/* ------------------------ */
+
+html {
+font-family: 'Inter', sans-serif;
+color : #343a40;
+}
+
+.container{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+nav{
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  padding: 32px;
+}
+
+h1{
+  font-size: 52px;
+  margin-bottom: 32px;
+}
+
+p{
+  font-size: 20px;
+  line-height: 1.6;
+  margin-bottom: 48px;
+}
+
+.btn:link,
+.btn:visited {
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #e67e22;
+  text-decoration: none;
+  color : #fff;
+  padding: 16px 32px;
+  border-radius: 9px;
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+h2{
+  font-size: 42px;
+  margin-bottom: 48px;
+}
+
+section{
+  padding: 96px 0;
+  background-color: #f7f7f7;
+}
+
+header{
+  height: 100vh;
+  position: relative;
+  color: #fff;
+  background-image: linear-gradient(rgba(0, 0, 0 , 0.3) , rgba(0, 0, 0 , 0.3) ) , url(./hero.jpg);
+  background-size: cover;
+}
+
+.header-container{
+  width: 1200px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50% , -50%);
+  /* text-align: center; */
+}
+
+.header-container--inner{
+  width: 50%;
+}
+
+
+
+
