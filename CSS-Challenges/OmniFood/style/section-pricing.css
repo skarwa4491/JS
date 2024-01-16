@@ -1,0 +1,99 @@
+.section-pricing {
+    padding: 9.6rem 0;
+}
+
+.pricing-plan {
+    background-color: #fdf2e9;
+    border-radius: 11px;
+    padding: 4.8rem;
+    width: 75%;
+}
+
+.plan-header {
+    text-align: center;
+    margin-bottom: 4.8rem;
+}
+
+.plan-name {
+    display: block;
+    font-size: 1.6rem;
+    color: #b8651b;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.75rem;
+    margin-bottom: 3.2rem;
+}
+
+.plan-price {
+    font-size: 7.4rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 1.6rem
+}
+
+.plan-price span {
+    font-size: 2.4rem;
+    font-weight: 500;
+    margin-right: .8rem;
+}
+
+.plan-text {
+    font-size: 1.6rem;
+    line-height: 1.6;
+}
+
+.plan-sign-up {
+    text-align: center;
+    margin-top: 4.8rem;
+}
+
+.pricing-plan--starter {
+    justify-self: center;
+    background-color: #fff;
+    border: 2px solid #fdf2e9;
+    padding: 4.6rem
+}
+
+.pricing-plan--high {
+    justify-self: start;
+    position: relative;
+}
+
+.pricing-plan--high::before {
+    content: 'best value';
+    text-transform: uppercase;
+    padding: 0.8rem 1.6rem;
+    background-color: #e67e22;
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/*FEATURE*/
+
+.feature-icon {
+    height: 3.2rem;
+    width: 3.2rem;
+    background-color: #fdf2e9;
+    padding: 1.6rem;
+    border-radius: 50%;
+    margin-bottom: 3.2rem;
+    color: #e67e22
+}
+
+
+.feature-title {
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 1.6rem
+}
+
+.feature-content {
+
+    font-size: 1.8rem;
+    line-height: 1.8;
+}

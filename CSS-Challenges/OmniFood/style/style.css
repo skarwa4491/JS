@@ -1,0 +1,60 @@
+/* 
+
+--- 01 Typography
+
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+font-weight:
+
+line-height:
+    default : 1
+
+---02 COlORS
+
+- Primary : 
+    #e67e22
+    #fcc419
+    #69db7c
+    #40c057
+
+- Greys : 
+    #555
+    #333
+
+- Tints:
+    #fdf2e9
+    #f8d8bd
+
+- Shades:
+    #b8651b
+
+- Accents:
+
+- Shadows:
+
+- Border Radius
+
+---03 Images:
+    https://unsplash.com/s/photos/food
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1;
+    font-weight: 400;
+    color: #555;
+}

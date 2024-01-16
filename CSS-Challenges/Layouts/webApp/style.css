@@ -1,0 +1,96 @@
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+MAIN COLOR #087f5b
+TEXT COLOR: #343a40
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ------------------------ */
+/* GENERAL STYLES */
+/* ------------------------ */
+
+html {
+  font-family: 'Inter', sans-serif;
+  color: #343a40;
+  font-size: 24px;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 80px 400px 1fr 250px;
+  grid-template-rows: 80px 1fr;
+  height: 100vh;
+  text-align: center;
+  font-weight: bold;
+}
+
+nav {
+  background-color: #343a40;
+  color: #fff;
+  grid-row: 1/-1;
+
+}
+
+menu {
+  background-color: #7048e8;
+  color: #fff;
+  grid-column: 2/-1;
+  display: flex;
+  align-items: center;
+  align-items: center;
+  gap: 12px;
+  padding: 0 40px;
+}
+
+section {
+  background-color: #dee2e6;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  overflow: auto;
+}
+
+aside {
+  background-color: #dee2e6;
+  grid-column: 4/-1;
+}
+
+button {
+  display: inline-block;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #5f3dc4;
+  color: #fff;
+  padding: 8px 12px;
+  font-weight: bold;
+}
+
+button:last-child {
+  background-color: #e64980;
+  margin-left: auto;
+}
+
+nav,
+aside,
+main {
+  padding-top: 24px;
+}
+
+.email {
+  padding: 32px;
+  background-color: #868e96;
+  height: 96px;
+}
