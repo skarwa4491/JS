@@ -1,0 +1,8 @@
+.tools {
+    height: 5rem;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    color : #212529;
+    gap : 2rem
+}

@@ -1,0 +1,12 @@
+.footer {
+    height: 5rem;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.sheet{
+    font-size: 1.5rem;
+    text-decoration: underline;
+}

@@ -1,0 +1,35 @@
+.options {
+    height: 5rem;
+    padding: 2rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #2b8a3e;
+    
+}
+
+.option {
+    font-size: 2rem;
+    padding-right: 2rem;
+    color : #fff
+}
+
+.font-family, .font-size{
+    padding: .5rem;
+    border: none;
+    border-radius: .5rem;
+}
+
+.color-prop{
+    position: relative;
+}
+
+.color-prop>input{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+}
+

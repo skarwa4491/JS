@@ -1,0 +1,26 @@
+.formula{
+    height: 5rem;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.address-bar{
+    height: 3rem;
+    width: 5rem;
+    border: none;
+    text-align: center;
+}
+
+.function{
+    height: 3rem;
+    width: 3rem;
+}
+
+.formula-bar{
+    height: 3rem;
+    border: none;
+    width: calc(100vw - 5rem - 3rem);
+    padding: 1rem;
+}
